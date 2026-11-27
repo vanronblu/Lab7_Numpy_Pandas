@@ -1,0 +1,62 @@
+STATISTICAL ROBUSTNESS AND SENSITIVITY REPORT
+============================================
+
+Student: German
+Student ID: TUPM-26-4336
+Random Seed: 264336
+Bootstrap Repetitions: 260
+
+SELECTED FEATURES
+- Feature_054
+- Feature_118
+- Feature_250
+- Feature_351
+- Feature_523
+
+COMPARISON RESULTS
+
+Feature: Feature_250
+Available-Case Difference: 1.526971
+Available-Case 95% CI: -5.816813 to 9.495886
+Imputed Difference: 1.526971
+Imputed 95% CI: -5.816813 to 9.495886
+Available-Case Rank: 1
+Imputed Rank: 1
+
+Feature: Feature_523
+Available-Case Difference: -0.173253
+Available-Case 95% CI: -0.426452 to 0.073885
+Imputed Difference: -0.173253
+Imputed 95% CI: -0.426452 to 0.073885
+Available-Case Rank: 2
+Imputed Rank: 2
+
+Feature: Feature_351
+Available-Case Difference: 0.004219
+Available-Case 95% CI: 0.000064 to 0.010189
+Imputed Difference: 0.004252
+Imputed 95% CI: 0.000120 to 0.010209
+Available-Case Rank: 3
+Imputed Rank: 3
+
+Feature: Feature_054
+Available-Case Difference: 0.003390
+Available-Case 95% CI: -0.005495 to 0.011707
+Imputed Difference: 0.003393
+Imputed 95% CI: -0.005456 to 0.011597
+Available-Case Rank: 4
+Imputed Rank: 4
+
+Feature: Feature_118
+Available-Case Difference: -0.000739
+Available-Case 95% CI: -0.002123 to 0.000593
+Imputed Difference: -0.000748
+Imputed 95% CI: -0.002126 to 0.000581
+Available-Case Rank: 5
+Imputed Rank: 5
+
+SENSITIVITY SUMMARY
+Largest Change in Mean Difference: 0.000033
+Features with Changed Difference Sign: []
+Features with Changed Ranking: []
+Reproducibility Verified: True
